@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="in.css">
+    <title>Portfolio</title>
+</head>
+<body> 
+    <header>
+        <nav>
+            <div class="hamburger" onclick="toggleNav()">
+                &#9776; 
+            </div>
+            <div class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <h1>JOAQUIN JUANICO</h1>
+            <p>Portfolio</p>
+        </section>
+
+        <section class="content">
+            <img src="waaat(2).jpg" alt="example" class="responsive-image">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Joax</p>
+    </footer>
+
+
+    <script>
+        function toggleNav() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active'); 
+        }
+        </script>
+
+</body>
+</html>
